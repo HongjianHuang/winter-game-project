@@ -1,0 +1,79 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "d4bc3988-f5b6-4181-bbd0-3ec4c3d30da3",
+            "actions": [
+                {
+                    "name": "Att",
+                    "type": "Button",
+                    "id": "d9d1eacd-fe83-4d76-9b9a-80e401e7fd96",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Def",
+                    "type": "Button",
+                    "id": "4884405d-658a-4fb6-818f-3fde0760b267",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d7b9eb25-236c-42f8-b766-66f67aa9bb1b",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Att",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b0904b7-61c8-4739-a070-8f5f100a0754",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Def",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "d59bafbb-419a-4a05-b985-f0cfcf0eda54",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "e5f89511-99c0-4177-90f8-c8ed91fd3150",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "de02b44a-154c-4b12-9aba-0718b7863e12",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
